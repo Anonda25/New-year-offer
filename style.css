@@ -112,7 +112,8 @@ body {
     background-blend-mode: overlay;
     border-radius: 16px;
 }
-.midnight-content{
+
+.midnight-content {
     width: 50%;
     height: 600px;
     display: flex;
@@ -122,23 +123,63 @@ body {
     gap: 30px;
 }
 
-.midnight-style-img{
-    padding: 8% ;
+.midnight-style-img {
+    padding: 8%;
 }
+
 .midnight-section-container h2 {
     color: rgb(255, 255, 255);
     font-size: 64px;
     font-weight: 900;
 }
+
 .midnight-section-container p {
     color: rgba(255, 255, 255, 0.8);
-font-family: Inter;
-font-size: 18px;
-font-weight: 400;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
 }
-.btn-style{
-    color:#fff;
+
+.btn-style {
+    color: #fff;
     text-decoration: none;
     font-size: 20px;
     font-weight: 700;
 }
+
+/* midnight section end */
+
+/* new year party section container start hier */
+.new-year-party-section-container {
+    width: 1320px;
+    height: 482px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+}
+
+.new-year-party-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    gap: 20px;
+}
+
+.text-color-red {
+    color: red;
+
+}
+
+.btn {
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    border: none;
+    padding: 10px 16px;
+    color:#fff;
+    font-weight: 700;
+}
+
+/* new year party section container  end  */
