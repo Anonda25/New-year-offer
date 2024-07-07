@@ -11,7 +11,7 @@ body {
 }
 
 .new-year {
-    width: 1320px;
+    max-width: 1320px;
     height: 600px;
     margin: 0 auto;
     background: rgb(0, 0, 0, 0.5);
@@ -31,8 +31,8 @@ body {
     align-items: center;
     height: 600px;
 }
- 
-   
+
+
 
 .new-year-content h5 {
     color: rgb(255, 255, 255);
@@ -45,4 +45,13 @@ body {
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
+}
+
+/* 60 off section staer */
+.secend-section-container {
+    width: 802.9px;
+    height: 806px;
+    margin: 0 auto;
+    border: 2px solid red;
+    margin-top: 90px;
 }
