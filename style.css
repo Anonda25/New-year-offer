@@ -178,8 +178,54 @@ body {
     background: rgb(255, 0, 0);
     border: none;
     padding: 10px 16px;
-    color:#fff;
+    color: #fff;
     font-weight: 700;
 }
 
 /* new year party section container  end  */
+/* comming soon section start hire  */
+.coming-soon-section-container {
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.coming-soon-content {
+    display: flex;
+    margin-top: 100px;
+    gap: 40px;
+}
+
+.coming-head {
+    width: 50%;
+}
+
+.coming-title {
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.coming-style {
+    color: rgb(255, 0, 0);
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.coming-description{
+    color: rgba(7, 2, 17, 0.6);
+font-size: 20px;
+font-weight: 400;
+margin-bottom: 30px;
+}
+.rounded{
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 20px solid red;
+    padding: 20px;
+}
+
+/* comming soon section end hire */
