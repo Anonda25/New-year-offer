@@ -276,9 +276,10 @@ body {
     height: 229px;
     background-color: red;
     position: absolute;
-    top:77%;
+    top: 77%;
 }
-.gift-box{
+
+.gift-box {
     width: 796.46px;
     height: 662.07px;
     position: relative;
@@ -287,16 +288,52 @@ body {
     justify-content: space-between;
 }
 
-.boy-section{
+.boy-section {
     width: 424px;
     height: 450px;
     position: relative;
     left: 12.5%;
     top: 7.5%;
 }
-.discount{
+
+.discount {
     position: absolute;
     bottom: 30%;
     left: 55%;
     z-index: 1;
 }
+/* portfolio section style */
+.portfolio-section-container {
+    width: 1320px;
+    height: 1163px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.portfolio-head {
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.portfolio-title {
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: 900;
+    
+}
+
+.portfolio-descrition {
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.cird-section-style{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 48px;
+    gap: 20px;
+}
+/* portfolio section style end */
