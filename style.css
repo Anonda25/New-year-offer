@@ -109,6 +109,8 @@ body {
     background-position: center;
     background-size: cover;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-blend-mode: overlay;
     border-radius: 16px;
 }
@@ -131,6 +133,7 @@ body {
     color: rgb(255, 255, 255);
     font-size: 64px;
     font-weight: 900;
+
 }
 
 .midnight-section-container p {
@@ -382,17 +385,23 @@ body {
 
 input {
     border: none;
-    padding: 10px 50px;
+    padding: 10px 150px 10px 10px;
     border-radius: 50px 0px 0px 50px;
     background: #fff;
+    color: rgba(7, 2, 17, 0.3);
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .btn-styles {
     border: none;
-    padding: 10px 16px;
+    padding: 10px 10px;
     background: red;
     border-radius: 0px 50px 50px 0px;
-    margin-left: -40px;
+    margin-left: -30px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
 }
 
 .footer-section-container {
@@ -408,7 +417,7 @@ input {
     display: flex;
     justify-content: space-between;
     margin: 50px;
-    
+
 }
 
 .footer-content h1 {
