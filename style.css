@@ -458,6 +458,7 @@ input {
 }
 
 @media screen and (max-width:576px) {
+   /* The portfolio section */
     .cird-section-style {
         grid-template-columns:1fr;
         padding: 10px;
@@ -481,5 +482,5 @@ input {
         margin-top: 20px;
         text-align: left;
     }
-    
+     /* The portfolio section */
 }
