@@ -453,28 +453,87 @@ input {
 }
 
 /* responsive for mobile */
-.hide{
+.hide {
     display: none;
 }
 
 @media screen and (max-width:576px) {
-   /* The portfolio section */
-    .cird-section-style {
-        grid-template-columns:1fr;
-        padding: 10px;
-      
+   /* subcribe section container */
+    .subcribe-section-container {
+        width: 100%;
+        height: 100%;
+        margin-top: 10px;
     }
-    .cird-section-style div img{
+    .img-style {
+        margin-top: 2%;
+    }
+    
+
+    .subcribe-content {
+        width: 100%;
+        height: 100%;
+    }
+    .subcribe-title {
+        color: rgb(7, 2, 17);
+        font-size: 4vw;
+        font-weight: 900;
+        margin-top: 2vh;
+    }
+    .subcribe-description {
+        color: rgba(7, 2, 17, 0.6);
+        font-size: 3vw;
+        font-weight: 400;
+        margin-top: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    input {
+        border: none;
+        padding: 10px 100px 10px 10px;
+        border-radius: 50px 0px 0px 50px;
+        background:#D7BCA1;
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .btn-styles {
+        border: none;
+        padding: 10px 10px;
+        background:#FC927A;
+        border-radius: 0px 50px 50px 0px;
+        margin-left: -30px;
+        font-size: 18px;
+        color: #474141;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+  /* subcribe section container */
+
+
+
+
+
+    /* The portfolio section */
+    .cird-section-style {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 10px;
+
+    }
+
+    .cird-section-style div img {
         width: 100%;
     }
-    .portfolio-section-container{
-        width:100%;
+
+    .portfolio-section-container {
+        width: 100%;
     }
+
     .portfolio-title {
         font-size: 4vw;
         font-weight: 900;
-    
+
     }
+
     .portfolio-descrition {
         color: rgba(7, 2, 17, 0.6);
         font-size: 3vw;
@@ -482,5 +541,6 @@ input {
         margin-top: 20px;
         text-align: left;
     }
-     /* The portfolio section */
+
+    /* The portfolio section */
 }
