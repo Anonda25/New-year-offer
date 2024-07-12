@@ -451,3 +451,35 @@ input {
     font-size: 24px;
     font-weight: 500;
 }
+
+/* responsive for mobile */
+.hide{
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    .cird-section-style {
+        grid-template-columns:1fr;
+        padding: 10px;
+      
+    }
+    .cird-section-style div img{
+        width: 100%;
+    }
+    .portfolio-section-container{
+        width:100%;
+    }
+    .portfolio-title {
+        font-size: 4vw;
+        font-weight: 900;
+    
+    }
+    .portfolio-descrition {
+        color: rgba(7, 2, 17, 0.6);
+        font-size: 3vw;
+        font-weight: 400;
+        margin-top: 20px;
+        text-align: left;
+    }
+    
+}
