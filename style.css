@@ -458,27 +458,35 @@ input {
 }
 
 @media screen and (max-width:576px) {
-   /* subcribe section container */
+        /* holiday secton hire */
+
+
+
+    /* subcribe section container */
     .subcribe-section-container {
         width: 100%;
         height: 100%;
         margin-top: 10px;
+        border-radius: 15px;
     }
+
     .img-style {
         margin-top: 2%;
     }
-    
+
 
     .subcribe-content {
         width: 100%;
         height: 100%;
     }
+
     .subcribe-title {
         color: rgb(7, 2, 17);
         font-size: 4vw;
         font-weight: 900;
         margin-top: 2vh;
     }
+
     .subcribe-description {
         color: rgba(7, 2, 17, 0.6);
         font-size: 3vw;
@@ -487,19 +495,21 @@ input {
         text-align: center;
         margin-bottom: 20px;
     }
+
     input {
         border: none;
-        padding: 10px 100px 10px 10px;
+        padding: 10px 60px 10px 10px;
         border-radius: 50px 0px 0px 50px;
-        background:#D7BCA1;
+        background: #D7BCA1;
         color: #ffffff;
         font-size: 18px;
         font-weight: 400;
     }
+
     .btn-styles {
         border: none;
         padding: 10px 10px;
-        background:#FC927A;
+        background: #FC927A;
         border-radius: 0px 50px 50px 0px;
         margin-left: -30px;
         font-size: 18px;
@@ -507,7 +517,8 @@ input {
         font-weight: 600;
         margin-bottom: 20px;
     }
-  /* subcribe section container */
+
+    /* subcribe section container */
 
 
 
@@ -543,4 +554,46 @@ input {
     }
 
     /* The portfolio section */
+    /* footer section style */
+    .footer-section-container {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        margin-top: 100px;
+        background: rgb(7, 2, 17);
+        
+    }
+
+    .footer-content,
+    .footer-section-end-style {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer-content{
+        margin: 0%;
+    }
+    .incon-section-style {
+        margin: 0px;
+    }
+
+    .incon-section-style img {
+        margin: 0px;
+    }
+
+
+.footer-section-end-style {
+    margin: 0px;
+}
+
+.footer-section-end-style h1 {
+    color: rgb(255, 255, 255);
+    font-size: 3vw;
+    font-weight: 500;
+}
+
+
+
+
+
+
 }
