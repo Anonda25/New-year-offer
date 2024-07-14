@@ -458,6 +458,14 @@ input {
 }
 
 @media screen and (max-width:576px) {
+
+    .new-year-party-section-container {
+        width: 80%;
+        height: 80%;
+    }
+    .new-year-party-content h1{
+        font-size: 16px;
+    }
 /* comming soon section */
     .coming-soon-section-container{
         width: 100%;
@@ -466,18 +474,20 @@ input {
     }
     .coming-soon-content{
         flex-direction: column;
-        align-items: center;
+        flex-wrap: wrap;
+        align-content: space-around;
     }
     .coming-head img{
-        width: 150%;
-    }
-    .coming-description img{
         width: 100%;
     }
+    .coming-head img{
+        width: 100%;
+    }
+   
     .rounded {
         box-sizing: border-box;
         border-radius: 50%;
-        border: 20px solid red;
+        border: 10px solid red;
         padding: 20px;
     }
 
@@ -617,14 +627,14 @@ input {
         width: 100%;
 
     }
-    .portfolio-head{
+    /* .portfolio-head{
         text-align: center;
-    }
+    } */
 
     .portfolio-title {
         font-size: 4vw;
         font-weight: 900;
-        text-align: center;
+        /* text-align: center; */
     }
 
     .portfolio-descrition {
@@ -632,9 +642,11 @@ input {
         font-size: 3vw;
         font-weight: 400;
         margin-top: 20px;
-        text-align: center;
+        /* text-align: center; */
     }
-
+    /* .cird-section-style div img{
+        width: 50%;
+    } */
     /* The portfolio section */
     /* footer section style */
     .footer-section-container {
