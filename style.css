@@ -458,7 +458,56 @@ input {
 }
 
 @media screen and (max-width:576px) {
+    .midnight-section-container {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        background:none ;
+        background-image: url(./images/Vectorrr.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:contain;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        opacity: 4px;
+        border-radius: 16px;
+    }
+    .midnight-content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 10px;
+        gap: 10px;
+    }
+    .midnight-section-container h2 {
+        color: rgb(255, 255, 255);
+        font-size: 3vw;
+        font-weight: 900;
+    }
+    .midnight-section-container p {
+        color: rgba(255, 255, 255, 0.8);
+        font-family: Inter;
+        font-size: 2vw;
+        font-weight: 400;
+    }
 
+    .midnight-style-img img {
+       width: 80%;
+    }
+    .btn-style {
+        color: #fff;
+        text-decoration: none;
+        font-size: 2vw;
+        font-weight: 700;
+    }
+    
+
+
+
+/* comming soon responsive */
     .new-year-party-section-container {
         width: 80%;
         height: 80%;
